@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import CommandBar from "./component/CommandBar";
 
 function App() {
   return (
@@ -10,15 +11,23 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div>
+          <a className="App-link">
+            1. Make sure you already login into
+            https://vm.app.axcelerate.com/management/index.cfm
+          </a>
+          <a className="App-link">2. Press Command+K to search</a>
+          <a className="App-link">
+            3. e.g. search "add new workshop", press enter, it will take you to
+            the corresponding page
+          </a>
+          <a className="App-link">
+            4.search your name, it will take 1.5s to get data back (mimic
+            fetching API)
+          </a>
+        </div>
       </header>
+      <CommandBar />
     </div>
   );
 }
