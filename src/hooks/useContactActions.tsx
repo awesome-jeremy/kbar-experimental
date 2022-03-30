@@ -8,6 +8,7 @@ const userData: User[] = [
   { contactID: 9171235, name: "Ari Luangamath" },
   { contactID: 10433343, name: "Yangfan Zhang" },
   { contactID: 12304053, name: "Lena Stockwell" },
+  { contactID: 12898306, name: "Erik Lan" },
   { contactID: 10700248, name: "Sam Mackay" },
   { contactID: 3367956, name: "Julian Tetsworth" },
   { contactID: 4746, name: "Jade Steffensen" },
